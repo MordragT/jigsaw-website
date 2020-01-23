@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/build/css/main.css?id=d41d8cd98f00b204e980">
+    <style>
+        * {
+            font-family: JetBrains Mono;
+            src: '/assets/fonts/JetBrainsMono-Regular.tff';
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <div class="container text-white">
+
+        <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="/">Mordrag</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog/">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact/">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">About me</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="btn-toolbar mr-auto" role="toolbar">
+            <div class="btn-group">
+                <a class="btn btn-secondary" href="https://github.com/MordragT" target="_blank"><i
+                        class="fa fa-github"></i></a>
+                <a class="btn btn-secondary" href="https://www.youtube.com/channel/UCzndJgF47jww1dcB-PO7g1Q"
+                    target="_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+
+<h1 class="text-center">Reconnaissance - Information Gathering</h1>
+<h4 class="text-center">Mordrag</h4>
+<br><br>
+<img src="/assets/images/it_security.jpg" class="img-fluid rounded" alt="...">
+<br><br>
+
+
+<h1>01 Reconnaissance: Information Gathering</h1>
+<h2>01.01 Active</h2>
+<p>Interacting with the target to make him produce valuable Information.</p>
+<h2>01.02 Passive(OSINT = Open Source Intelligence)</h2>
+<p>Gathering Information by observing the target.</p>
+<h2>01.03 Targets</h2>
+<h4>Physical</h4>
+<ul>
+<li>Satellite images</li>
+<li>Building Layout</li>
+</ul>
+<h4>Social</h4>
+<ul>
+<li>Employees</li>
+</ul>
+<h4>Host</h4>
+<ul>
+<li>Target Validation</li>
+<li>Finding Subdomians</li>
+<li>Fingerprinting</li>
+<li>Data Breaches</li>
+</ul>
+<h2>01.04 Tools</h2>
+<h4>Clear Text Credentials</h4>
+<p>Search in a large Database for Credentials</p>
+<h4>Google Dorks</h4>
+<p>Search for robots.txt wich contains data which google isnt allowed to crawl.
+Otherwise use Google as Crawler for Sensitive Website Information:
+<code>site:&lt;target&gt;</code> e.g. site:*.example.com
+<code>inurl:&lt;dork&gt;</code> Dorks can be obtained of a <a href="https://gbhackers.com/latest-google-dorks-list/">Dorklist</a>
+<code>filetype:&lt;pdf|txt|etc&gt;</code>
+<code>related:&lt;site&gt;</code> Sites Related to given Domain
+<code>-&lt;subdomain&gt;</code> e.g. -www</p>
+<h4>Wappalyzer</h4>
+<p>Shows the Technology used for building the given site</p>
+
+    </div>
+
+    <!--<footer class="navbar navbar-fixed-bottom navbar-light">
+    <div class="container text-white">
+        <p class="row pt-2">© 2020</p>
+    </div>
+</footer>-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
