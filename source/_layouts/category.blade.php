@@ -8,7 +8,7 @@
     </div>
     <br>
 </div>
-<div class="row justify-content-center">
+<div class="row">
     @include('_components.category-buttons')
     @foreach ($page->posts($posts) as $post)
     @include('_components.post-preview')

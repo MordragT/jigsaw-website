@@ -17,10 +17,10 @@ pagination:
     @foreach($pagination->items as $post)
         @include('_components.post-preview')
     @endforeach
-    <p class="col-md-8">Welcome to my Website, i will post here frequently <mark>tutorials</mark> for informatics
-        since i am studying <mark>Informatics</mark> at the FH in Aachen.
+    <p class="offset-md-1 col-md-8">Welcome to my Website, i will post here frequently <mark>tutorials</mark> for informatics
+        since i am studying <mark>Computer Science</mark> at the FH in Aachen.
        At the moment i am in my third semester and will soon be in my fourths.
-       If you have a question to a topic on my website feel free to <mark>contact</mark> me,
-       you have the best chance that i will answer it, if you contact my via <mark>steam</mark> or <mark>youtube</mark> ;).</p>
+       If you have a question about a topic on my website feel free to <mark>contact</mark> me,
+       i will most likely answer on <mark>steam</mark> or <mark>youtube</mark>.</p>
 </div>
 @endsection

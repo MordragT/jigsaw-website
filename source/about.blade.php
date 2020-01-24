@@ -7,8 +7,7 @@
     <br><br>
     <div class="text-center">
         <p>Hello and welcome to my Website</p>
-        <p>My Name is Thomas and i am currently studying Informatics.</p>
-        <p>You might know me under Mordrag.</p>
+        <p>My Name is Thomas and i am currently studying Computer Science.</p>
         <br><br>
         <h4>Background</h4>
         <p>German</p>

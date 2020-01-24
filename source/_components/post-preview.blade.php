@@ -1,5 +1,5 @@
-<div class="col-md-4">
-    <div class="card bg-secondary" style="width: 18rem;">
+<div class="col-md-3">
+    <div class="card bg-secondary">
         <img src="{{ $post->cover_image }}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">{{ $post->title }}</h5>
