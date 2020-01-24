@@ -23,7 +23,7 @@
         @include('_partials.navigation')
 
         @yield('content')
-
+        <br><br><br>
     </div>
 
     <!--@include('_partials.footer')-->

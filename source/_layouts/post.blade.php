@@ -9,7 +9,5 @@
 <img src="{{ $page->cover_image }}" class="img-fluid rounded" alt="...">
 <br><br>
 
-
 @yield('post')
-
 @endsection

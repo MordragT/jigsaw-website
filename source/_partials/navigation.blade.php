@@ -26,6 +26,8 @@
                         class="fa fa-github"></i></a>
                 <a class="btn btn-secondary" href="https://www.youtube.com/channel/UCzndJgF47jww1dcB-PO7g1Q"
                     target="_blank"><i class="fa fa-youtube"></i></a>
+                <a class="btn btn-secondary" href="https://steamcommunity.com/id/mordragt"
+                    target="_blank"><i class="fa fa-steam"></i></a>
             </div>
         </div>
     </nav>
