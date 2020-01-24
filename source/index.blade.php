@@ -1,7 +1,7 @@
 ---
 pagination:
     collection: posts
-    perPage: 1
+    perPage: 10
 ---
 @extends('_layouts.master')
 
@@ -15,7 +15,10 @@ pagination:
 <br>
 <div class="row">
     @foreach($pagination->items as $post)
-        @include('_components.post-preview')
+        @if($loop->first)
+            @include('_components.post-preview')
+            @break
+        @endif
     @endforeach
     <p class="offset-md-1 col-md-8">Welcome to my Website, i will post here frequently <mark>tutorials</mark> for informatics
         since i am studying <mark>Computer Science</mark> at the FH in Aachen.
