@@ -24,6 +24,7 @@
 
         @yield('content')
         <br><br><br>
+        
     </div>
 
     <!--@include('_partials.footer')-->
