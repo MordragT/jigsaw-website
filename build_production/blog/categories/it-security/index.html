@@ -16,6 +16,25 @@
             font-family: JetBrains Mono;
             src: '/assets/fonts/JetBrainsMono-Regular.tff';
         }
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 100px;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            line-height: 60px; /* Vertically center the text there */
+        }
+        .card-columns {
+            column-count: 3;
+        }
     </style>
 </head>
 
@@ -63,26 +82,25 @@
     <br>
 </div>
 <div class="row">
-    <div class="col-md-3">
-    <h3>Categories</h3>
-    <br>
-    <div class="btn-group-vertical">
+    <h3 class="col-md-3">Categories</h3>
+    <div class="btn-group col-md-6">
         <a class="btn btn-secondary" href="/blog/">All</a>
         <a class="btn btn-secondary" href="/blog/categories/java">Java</a>
         <a class="btn btn-secondary" href="/blog/categories/it-security">IT Secruity</a>
         <a class="btn btn-secondary" href="/blog/categories/python">Python</a>
     </div>
     
-</div>    </div>
-        <br><br><br>
-        
+</div><br>
+<div class="row">
+    <div class="card-columns">
+    </div>
+</div>
+
     </div>
 
-    <!--<footer class="navbar navbar-fixed-bottom navbar-light">
-    <div class="container text-white">
-        <p class="row pt-2">© 2020</p>
-    </div>
-</footer>-->
+    <footer class="bg-secondary">
+    <div class="text-white text-center font-italic">Copyright © Mordrag 2020</div>
+</footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

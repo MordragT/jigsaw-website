@@ -8,10 +8,13 @@
     </div>
     <br>
 </div>
+@include('_components.category-buttons')
+<br>
 <div class="row">
-    @include('_components.category-buttons')
+    <div class="card-columns">
     @foreach ($page->posts($posts) as $post)
-    @include('_components.post-preview')
+        @include('_components.post-preview')
     @endforeach
+</div>
 </div>
 @endsection

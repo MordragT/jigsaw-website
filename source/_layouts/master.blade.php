@@ -16,6 +16,25 @@
             font-family: JetBrains Mono;
             src: '/assets/fonts/JetBrainsMono-Regular.tff';
         }
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 100px;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            line-height: 60px; /* Vertically center the text there */
+        }
+        .card-columns {
+            column-count: 3;
+        }
     </style>
 </head>
 
@@ -25,11 +44,11 @@
         @include('_partials.navigation')
 
         @yield('content')
-        <br><br><br>
-        
+
     </div>
 
-    <!--@include('_partials.footer')-->
+    @include('_partials.footer')
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

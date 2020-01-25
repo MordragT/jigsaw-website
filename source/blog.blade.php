@@ -8,10 +8,13 @@ pagination:
 @section('content')
 <h1 class="text-center">Blog</h1>
 <br><br>
+@include('_components.category-buttons')
+<br>
 <div class="row">
-    @include('_components.category-buttons')
+    <div class="card-columns">
     @foreach ($pagination->items as $post)
         @include('_components.post-preview')
     @endforeach
+  </div>
 </div>
 @endsection

@@ -14,12 +14,14 @@ pagination:
 </div>
 <br>
 <div class="row">
+    <div class="col-md-3">
     @foreach($pagination->items as $post)
         @if($loop->first)
             @include('_components.post-preview')
             @break
         @endif
     @endforeach
+    </div>
     <p class="offset-md-1 col-md-8">Welcome to my Website, i will post here frequently <mark>tutorials</mark> for informatics
         since i am studying <mark>Computer Science</mark> at the FH in Aachen.
        At the moment i am in my third semester and will soon be in my fourths.

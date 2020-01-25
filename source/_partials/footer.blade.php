@@ -1,5 +1,3 @@
-<footer class="navbar navbar-fixed-bottom navbar-light">
-    <div class="container text-white">
-        <p class="row pt-2">© 2020</p>
-    </div>
+<footer class="bg-secondary">
+    <div class="text-white text-center font-italic">Copyright © Mordrag 2020</div>
 </footer>
