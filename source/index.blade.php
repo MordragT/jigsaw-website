@@ -14,7 +14,7 @@ pagination:
 </div>
 <br>
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 mb-4">
     @foreach($pagination->items as $post)
         @if($loop->first)
             @include('_components.post-preview')

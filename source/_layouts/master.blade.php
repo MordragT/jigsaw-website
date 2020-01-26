@@ -13,8 +13,7 @@
       href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/solarized-light.min.css">
     <style>
         * {
-            font-family: JetBrains Mono;
-            src: '/assets/fonts/JetBrainsMono-Regular.tff';
+            font-family: monospace;
         }
         html {
             position: relative;

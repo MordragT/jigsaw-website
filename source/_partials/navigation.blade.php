@@ -7,7 +7,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/blog/">Blog</a>
                 </li>
@@ -18,16 +18,15 @@
                     <a class="nav-link" href="/about/">About me</a>
                 </li>
             </ul>
-        </div>
-
-        <div class="btn-toolbar mr-auto" role="toolbar">
-            <div class="btn-group">
-                <a class="btn btn-secondary" href="https://github.com/MordragT" target="_blank"><i
-                        class="fa fa-github"></i></a>
-                <a class="btn btn-secondary" href="https://www.youtube.com/channel/UCzndJgF47jww1dcB-PO7g1Q"
-                    target="_blank"><i class="fa fa-youtube"></i></a>
-                <a class="btn btn-secondary" href="https://steamcommunity.com/id/mordragt"
-                    target="_blank"><i class="fa fa-steam"></i></a>
+            <div class="btn-toolbar ml-auto" role="toolbar">
+                <div class="btn-group">
+                    <a class="btn btn-secondary" href="https://github.com/MordragT" target="_blank"><i
+                            class="fa fa-github"></i></a>
+                    <a class="btn btn-secondary" href="https://www.youtube.com/channel/UCzndJgF47jww1dcB-PO7g1Q"
+                        target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-secondary" href="https://steamcommunity.com/id/mordragt"
+                        target="_blank"><i class="fa fa-steam"></i></a>
+                </div>
             </div>
         </div>
     </nav>
