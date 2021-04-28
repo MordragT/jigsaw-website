@@ -15,17 +15,17 @@ pagination:
 <br>
 <div class="row">
     <div class="col-md-3 mb-4">
-    @foreach($pagination->items as $post)
+        @foreach($pagination->items as $post)
         @if($loop->first)
-            @include('_components.post-preview')
-            @break
+        @include('_components.post-preview')
+        @break
         @endif
-    @endforeach
+        @endforeach
     </div>
     <p class="offset-md-1 col-md-8">Welcome to my Website, i will post here frequently <mark>tutorials</mark> for informatics
         since i am studying <mark>Computer Science</mark> at the FH in Aachen.
-       At the moment i am in my third semester and will soon be in my fourths.
-       If you have a question about a topic on my website feel free to <mark>contact</mark> me,
-       i will most likely answer on <mark>steam</mark> or <mark>youtube</mark>.</p>
+        At the moment i am in my sixth semester and searching for an internship.
+        If you have a question about a topic on my website feel free to <mark>contact</mark> me,
+        i will most likely answer on <mark>steam</mark> or <mark>youtube</mark>.</p>
 </div>
 @endsection
